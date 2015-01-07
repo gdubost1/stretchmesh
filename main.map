@@ -1,0 +1,743 @@
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtbeginS.o
+ .group         0x0000000000000000        0x8 curveColliderLocator.o
+ .group         0x0000000000000000        0x8 curveColliderLocator.o
+ .group         0x0000000000000000        0x8 curveColliderLocator.o
+ .group         0x0000000000000000        0x8 curveColliderLocator.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 curveColliderLocator.o
+ .group         0x0000000000000000        0x8 stretchMeshCmd.o
+ .group         0x0000000000000000        0x8 stretchMeshCmd.o
+ .group         0x0000000000000000        0x8 stretchMeshCmd.o
+ .group         0x0000000000000000        0x8 stretchMeshCmd.o
+ .group         0x0000000000000000        0x8 stretchMeshCmd.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 stretchMeshCmd.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 stretchMeshCmd.o
+ .group         0x0000000000000000        0x8 pluginMain.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 pluginMain.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 pluginMain.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .group         0x0000000000000000        0x8 stretchMeshDeformer.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 stretchMeshDeformer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 stretchMeshDeformer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+LOAD /usr/lib64/gcc/x86_64-suse-linux/4.6/crtbeginS.o
+LOAD curveColliderLocator.o
+LOAD stretchMeshCmd.o
+LOAD pluginMain.o
+LOAD stretchMeshDeformer.o
+LOAD /s/apps/lin/maya/maya2015-x64/lib/libOpenMaya.so
+LOAD /s/apps/lin/maya/maya2015-x64/lib/libOpenMayaAnim.so
+LOAD /s/apps/lin/maya/maya2015-x64/lib/libOpenMayaUI.so
+LOAD /s/apps/lin/maya/maya2015-x64/lib/libFoundation.so
+LOAD /s/apps/lin/maya/maya2015-x64/lib/libOpenMayaRender.so
+LOAD /usr/lib64/gcc/x86_64-suse-linux/4.6/libgcc.a
+LOAD /usr/lib64/gcc/x86_64-suse-linux/4.6/libgcc_s.so
+LOAD /usr/lib64/libpthread.so
+START GROUP
+LOAD /lib64/libpthread.so.0
+LOAD /usr/lib64/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib64/libc.so
+START GROUP
+LOAD /lib64/libc.so.6
+LOAD /usr/lib64/libc_nonshared.a
+LOAD /lib64/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib64/gcc/x86_64-suse-linux/4.6/libgcc.a
+LOAD /usr/lib64/gcc/x86_64-suse-linux/4.6/libgcc_s.so
+LOAD /usr/lib64/gcc/x86_64-suse-linux/4.6/crtendS.o
+LOAD /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crtn.o
+                0x00000000000001c8                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x00000000000001c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000001c8       0x24 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+
+.hash           0x00000000000001f0      0xafc
+ *(.hash)
+ .hash          0x00000000000001f0      0xafc /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+
+.gnu.hash       0x0000000000000cf0       0x28
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000000cf0       0x28 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+
+.dynsym         0x0000000000000d18     0x2910
+ *(.dynsym)
+ .dynsym        0x0000000000000d18     0x2910 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+
+.dynstr         0x0000000000003628     0x37b3
+ *(.dynstr)
+ .dynstr        0x0000000000003628     0x37b3 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+
+.gnu.version    0x0000000000006ddc      0x36c
+ *(.gnu.version)
+ .gnu.version   0x0000000000006ddc      0x36c /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+
+.gnu.version_d  0x0000000000007148        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+
+.gnu.version_r  0x0000000000007148       0x40
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000007148       0x40 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+
+.rela.dyn       0x0000000000007188     0x12a8
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000000000        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel
+                0x0000000000007188       0x18 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ .rela.data.rel.ro._ZTI20curveColliderLocator
+                0x00000000000071a0       0x48 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ .rela.data.rel.ro._ZTV20curveColliderLocator
+                0x00000000000071e8      0x438 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ .rela.data.DW.ref.__gxx_personality_v0
+                0x0000000000007620       0x18 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ .rela.data.rel.ro._ZTI14stretchMeshCmd
+                0x0000000000007638       0x48 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ .rela.data.rel.ro._ZTV14stretchMeshCmd
+                0x0000000000007680       0xc0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ .rela.data.rel.ro._ZTI19stretchMeshDeformer
+                0x0000000000007740       0x48 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ .rela.data.rel.ro._ZTV19stretchMeshDeformer
+                0x0000000000007788      0x3d8 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ .rela.ctors    0x0000000000007b60       0x60 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000007bc0      0x870 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000000000        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ .rela.eh_frame
+                0x0000000000000000        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+
+.rela.plt       0x0000000000008430     0x2298
+ *(.rela.plt)
+ .rela.plt      0x0000000000008430     0x2298 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ *(.rela.iplt)
+
+.init           0x000000000000a6c8       0x18
+ *(.init)
+ .init          0x000000000000a6c8        0x9 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+                0x000000000000a6c8                _init
+ .init          0x000000000000a6d1        0x5 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtbeginS.o
+ .init          0x000000000000a6d6        0x5 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtendS.o
+ .init          0x000000000000a6db        0x5 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crtn.o
+
+.plt            0x000000000000a6e0     0x1720
+ *(.plt)
+ .plt           0x000000000000a6e0     0x1720 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ *(.iplt)
+
+.text           0x000000000000be00    0x25d88
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x000000000000be00      0x129 curveColliderLocator.o
+ *fill*         0x000000000000bf29        0x7 90909090
+ .text.startup  0x000000000000bf30       0x2e stretchMeshCmd.o
+ *fill*         0x000000000000bf5e        0x2 90909090
+ .text.startup  0x000000000000bf60       0x2e pluginMain.o
+ *fill*         0x000000000000bf8e        0x2 90909090
+ .text.startup  0x000000000000bf90      0x594 stretchMeshDeformer.o
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000000000000c524       0x17 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ *fill*         0x000000000000c53b        0x5 90909090
+ .text          0x000000000000c540       0xaa /usr/lib64/gcc/x86_64-suse-linux/4.6/crtbeginS.o
+ *fill*         0x000000000000c5ea        0x6 90909090
+ .text          0x000000000000c5f0     0x4c26 curveColliderLocator.o
+                0x000000000000c5f0                _ZNK20curveColliderLocator9isBoundedEv
+                0x000000000000c600                _ZN20curveColliderLocator7computeERK5MPlugR10MDataBlock
+                0x000000000000c620                _ZN20curveColliderLocator10initializeEv
+                0x000000000000d350                _ZNK20curveColliderLocator11boundingBoxEv
+                0x000000000000d780                _ZN20curveColliderLocatorD1Ev
+                0x000000000000d780                _ZN20curveColliderLocatorD2Ev
+                0x000000000000d7a0                _ZN20curveColliderLocatorD0Ev
+                0x000000000000d7c0                _ZN20curveColliderLocator4drawER7M3dViewRK8MDagPathNS0_12DisplayStyleENS0_13DisplayStatusE
+                0x0000000000011040                _ZN20curveColliderLocatorC2Ev
+                0x0000000000011040                _ZN20curveColliderLocatorC1Ev
+                0x0000000000011060                _ZN20curveColliderLocator7creatorEv
+                0x00000000000110a0                _ZN20curveColliderLocator8RegisterER9MFnPlugin
+                0x00000000000111a0                _ZN20curveColliderLocator10DeregisterER9MFnPlugin
+ *fill*         0x0000000000011216        0xa 90909090
+ .text          0x0000000000011220     0xcf06 stretchMeshCmd.o
+                0x0000000000011220                _Z18polarCoordsCompare11polarCoordsS_
+                0x0000000000011230                _ZNK14stretchMeshCmd10isUndoableEv
+                0x0000000000011240                _ZN14stretchMeshCmd6undoItEv
+                0x00000000000117a0                _ZN14stretchMeshCmd9newSyntaxEv
+                0x0000000000011b00                _ZN14stretchMeshCmdD2Ev
+                0x0000000000011b00                _ZN14stretchMeshCmdD1Ev
+                0x0000000000011cc0                _ZN14stretchMeshCmdD0Ev
+                0x00000000000121c0                _ZN14stretchMeshCmd7creatorEv
+                0x0000000000012cb0                _ZN14stretchMeshCmd9parseArgsERK8MArgList
+                0x00000000000136b0                _ZN14stretchMeshCmd4doItERK8MArgList
+                0x0000000000013710                _ZN14stretchMeshCmd17getConnectedVertsER13MItMeshVertexR9MIntArrayi
+                0x0000000000013890                _ZN14stretchMeshCmd10bubbleSortER9MIntArray
+                0x0000000000013930                _ZN14stretchMeshCmd13getCurrNormalER11MPointArrayR9MIntArray
+                0x0000000000013b30                _ZN14stretchMeshCmd17projectVrtToPlaneE7MVectorS0_d
+                0x0000000000013bc0                _ZN14stretchMeshCmd11addColliderEv
+                0x0000000000014170                _ZN14stretchMeshCmd16addCurveColliderEv
+                0x0000000000015540                _ZN14stretchMeshCmd17addSphereColliderEv
+                0x0000000000015f30                _ZN14stretchMeshCmd12addAttractorEv
+                0x0000000000016650                _ZN14stretchMeshCmd17addCurveAttractorEv
+                0x0000000000017b50                _ZN14stretchMeshCmd23buildstretchMeshCmdMenuEv
+                0x0000000000019e20                _ZN14stretchMeshCmd8RegisterER9MFnPlugin
+                0x0000000000019ee0                _ZN14stretchMeshCmd10DeregisterER9MFnPlugin
+                0x0000000000019f90                _ZN14stretchMeshCmd6redoItEv
+ *fill*         0x000000000001e126        0xa 90909090
+ .text._ZNSt6vectorI11polarCoordsSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+                0x000000000001e130      0x239 stretchMeshCmd.o
+                0x000000000001e130                _ZNSt6vectorI11polarCoordsSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+ *fill*         0x000000000001e369        0x7 90909090
+ .text          0x000000000001e370      0x3ad pluginMain.o
+                0x000000000001e370                _Z16initializePlugin7MObject
+                0x000000000001e5b0                _Z18uninitializePlugin7MObject
+ *fill*         0x000000000001e71d        0x3 90909090
+ .text          0x000000000001e720    0x108d5 stretchMeshDeformer.o
+                0x000000000001e720                _ZN19stretchMeshDeformer15postConstructorEv
+                0x000000000001e780                _ZN19stretchMeshDeformer10initializeEv
+                0x0000000000022480                _ZN19stretchMeshDeformerD2Ev
+                0x0000000000022480                _ZN19stretchMeshDeformerD1Ev
+                0x00000000000224a0                _ZN19stretchMeshDeformerD0Ev
+                0x0000000000022500                _ZN19stretchMeshDeformerC2Ev
+                0x0000000000022500                _ZN19stretchMeshDeformerC1Ev
+                0x0000000000022530                _ZN19stretchMeshDeformer7creatorEv
+                0x0000000000022570                _ZN19stretchMeshDeformer15RemoveCallbacksEv
+                0x00000000000225a0                _ZN19stretchMeshDeformer8RegisterER9MFnPluginb
+                0x00000000000226a0                _ZN19stretchMeshDeformer10DeregisterER9MFnPlugin
+                0x0000000000022720                _ZN19stretchMeshDeformer20project_vrt_to_planeE7MVectorS0_d
+                0x0000000000022810                _ZNK19stretchMeshDeformer24FindInfluenceObjectIndexERK7MObjectRjS3_
+                0x0000000000022f50                _ZNK19stretchMeshDeformer25GetInfluenceObjectWeightsEjjR12MDoubleArray
+                0x0000000000023a90                _ZN19stretchMeshDeformer14connectionMadeERK5MPlugS2_b
+                0x0000000000023f00                _ZNK19stretchMeshDeformer25SetInfluenceObjectWeightsEjRK12MDoubleArrayj
+                0x00000000000244e0                _ZNK19stretchMeshDeformer15GetPaintWeightsER12MDoubleArray
+                0x0000000000024920                _ZN19stretchMeshDeformer19AttrChangedCallbackEN12MNodeMessage16AttributeMessageER5MPlugS3_
+                0x0000000000024ad0                _ZN19stretchMeshDeformer20sAttrChangedCallbackEN12MNodeMessage16AttributeMessageER5MPlugS3_Pv
+                0x0000000000024af0                _ZN19stretchMeshDeformer6deformER10MDataBlockR11MItGeometryRK7MMatrixj
+ *fill*         0x000000000002eff5        0xb 90909090
+ .text._ZNSt6vectorI16smConnectedVertsSaIS0_EED2Ev
+                0x000000000002f000       0x4d stretchMeshDeformer.o
+                0x000000000002f000                _ZNSt6vectorI16smConnectedVertsSaIS0_EED1Ev
+                0x000000000002f000                _ZNSt6vectorI16smConnectedVertsSaIS0_EED2Ev
+ *fill*         0x000000000002f04d        0x3 90909090
+ .text._ZNSt6vectorI16smAttractorMultsSaIS0_EED2Ev
+                0x000000000002f050       0x4d stretchMeshDeformer.o
+                0x000000000002f050                _ZNSt6vectorI16smAttractorMultsSaIS0_EED2Ev
+                0x000000000002f050                _ZNSt6vectorI16smAttractorMultsSaIS0_EED1Ev
+ *fill*         0x000000000002f09d        0x3 90909090
+ .text._ZNSt6vectorIiSaIiEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPiS1_EERKi
+                0x000000000002f0a0      0x1af stretchMeshDeformer.o
+                0x000000000002f0a0                _ZNSt6vectorIiSaIiEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPiS1_EERKi
+ *fill*         0x000000000002f24f        0x1 90909090
+ .text._ZNSt6vectorIdSaIdEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPdS1_EERKd
+                0x000000000002f250      0x1b7 stretchMeshDeformer.o
+                0x000000000002f250                _ZNSt6vectorIdSaIdEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPdS1_EERKd
+ *fill*         0x000000000002f407        0x9 90909090
+ .text._ZNSt6vectorIfSaIfEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPfS1_EERKf
+                0x000000000002f410      0x1ba stretchMeshDeformer.o
+                0x000000000002f410                _ZNSt6vectorIfSaIfEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPfS1_EERKf
+ *fill*         0x000000000002f5ca        0x6 90909090
+ .text._ZNSt6vectorIiSaIiEEaSERKS1_
+                0x000000000002f5d0      0x1d8 stretchMeshDeformer.o
+                0x000000000002f5d0                _ZNSt6vectorIiSaIiEEaSERKS1_
+ *fill*         0x000000000002f7a8        0x8 90909090
+ .text._ZNSt6vectorI16smConnectedVertsSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+                0x000000000002f7b0      0x6b5 stretchMeshDeformer.o
+                0x000000000002f7b0                _ZNSt6vectorI16smConnectedVertsSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+ *fill*         0x000000000002fe65        0xb 90909090
+ .text._ZNSt6vectorIdSaIdEEaSERKS1_
+                0x000000000002fe70      0x1d8 stretchMeshDeformer.o
+                0x000000000002fe70                _ZNSt6vectorIdSaIdEEaSERKS1_
+ *fill*         0x0000000000030048        0x8 90909090
+ .text._ZNSt6vectorI13smMeanWeightsSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+                0x0000000000030050      0x6b5 stretchMeshDeformer.o
+                0x0000000000030050                _ZNSt6vectorI13smMeanWeightsSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+ *fill*         0x0000000000030705        0xb 90909090
+ .text._ZNSt6vectorI11smBScalableSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+                0x0000000000030710      0x6b5 stretchMeshDeformer.o
+                0x0000000000030710                _ZNSt6vectorI11smBScalableSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+ *fill*         0x0000000000030dc5        0xb 90909090
+ .text._ZNSt6vectorI16smCrvAttractorUVSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+                0x0000000000030dd0      0x6b5 stretchMeshDeformer.o
+                0x0000000000030dd0                _ZNSt6vectorI16smCrvAttractorUVSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+ *fill*         0x0000000000031485        0xb 90909090
+ .text._ZNSt6vectorI16smAttractorMultsSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+                0x0000000000031490      0x6b5 stretchMeshDeformer.o
+                0x0000000000031490                _ZNSt6vectorI16smAttractorMultsSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+ *fill*         0x0000000000031b45        0xb 90909090
+ .text          0x0000000000031b50       0x36 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtendS.o
+ *fill*         0x0000000000031b86        0x2 90909090
+ .text          0x0000000000031b88        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crtn.o
+ *(.gnu.warning)
+
+.fini           0x0000000000031b88       0x16
+ *(.fini)
+ .fini          0x0000000000031b88       0x10 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+                0x0000000000031b88                _fini
+ .fini          0x0000000000031b98        0x5 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtbeginS.o
+ .fini          0x0000000000031b9d        0x1 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crtn.o
+                0x0000000000031b9e                PROVIDE (__etext, .)
+                0x0000000000031b9e                PROVIDE (_etext, .)
+                0x0000000000031b9e                PROVIDE (etext, .)
+
+.rodata         0x0000000000031ba0     0x5af4
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000031ba0       0x99 curveColliderLocator.o
+ *fill*         0x0000000000031c39        0x7 00
+ .rodata.str1.8
+                0x0000000000031c40      0x1ba curveColliderLocator.o
+ *fill*         0x0000000000031dfa        0x6 00
+ .rodata._ZTS20curveColliderLocator
+                0x0000000000031e00       0x17 curveColliderLocator.o
+                0x0000000000031e00                _ZTS20curveColliderLocator
+ *fill*         0x0000000000031e17        0x1 00
+ .rodata.cst8   0x0000000000031e18       0x18 curveColliderLocator.o
+ .rodata.cst4   0x0000000000031e30       0x2c curveColliderLocator.o
+ .rodata.str1.1
+                0x0000000000031e5c      0x978 stretchMeshCmd.o
+                                        0xae1 (size before relaxing)
+ *fill*         0x00000000000327d4        0x4 00
+ .rodata.str1.8
+                0x00000000000327d8     0x40e5 stretchMeshCmd.o
+ *fill*         0x00000000000368bd        0x3 00
+ .rodata._ZTS14stretchMeshCmd
+                0x00000000000368c0       0x11 stretchMeshCmd.o
+                0x00000000000368c0                _ZTS14stretchMeshCmd
+ *fill*         0x00000000000368d1        0x7 00
+ .rodata.cst8   0x00000000000368d8       0x38 stretchMeshCmd.o
+                                         0x48 (size before relaxing)
+ .rodata.cst4   0x0000000000036910        0x4 stretchMeshCmd.o
+ *fill*         0x0000000000036914        0xc 00
+ .rodata.cst16  0x0000000000036920       0x10 stretchMeshCmd.o
+ .rodata.str1.1
+                0x0000000000036930       0x76 pluginMain.o
+ *fill*         0x00000000000369a6        0x2 00
+ .rodata.str1.8
+                0x00000000000369a8       0xc2 pluginMain.o
+ *fill*         0x0000000000036a6a        0x6 00
+ .rodata.cst8   0x0000000000036a70        0x8 pluginMain.o
+ .rodata.str1.1
+                0x0000000000036a78      0x2b0 stretchMeshDeformer.o
+                                        0x450 (size before relaxing)
+ .rodata.str1.8
+                0x0000000000036d28      0x918 stretchMeshDeformer.o
+                                        0x911 (size before relaxing)
+ .rodata._ZTS19stretchMeshDeformer
+                0x0000000000037640       0x16 stretchMeshDeformer.o
+                0x0000000000037640                _ZTS19stretchMeshDeformer
+ *fill*         0x0000000000037656        0x2 00
+ .rodata.cst8   0x0000000000037658       0x28 stretchMeshDeformer.o
+                                         0x40 (size before relaxing)
+ .rodata.cst16  0x0000000000037680       0x10 stretchMeshDeformer.o
+                                         0x20 (size before relaxing)
+ .rodata.cst4   0x0000000000037690        0x4 stretchMeshDeformer.o
+                                         0x20 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000037694      0x27c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000037694      0x27c /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+
+.eh_frame       0x0000000000037910     0x1104
+ *(.eh_frame)
+ .eh_frame      0x0000000000037910       0x38 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ .eh_frame      0x0000000000037948      0x230 curveColliderLocator.o
+                                        0x228 (size before relaxing)
+ .eh_frame      0x0000000000037b78      0x6c0 stretchMeshCmd.o
+                                        0x6b8 (size before relaxing)
+ .eh_frame      0x0000000000038238       0x78 pluginMain.o
+                                         0xb0 (size before relaxing)
+ .eh_frame      0x00000000000382b0      0x760 stretchMeshDeformer.o
+                                        0x740 (size before relaxing)
+ .eh_frame      0x0000000000038a10        0x4 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtendS.o
+
+.gcc_except_table
+                0x0000000000038a14     0x2c0c
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table
+                0x0000000000038a14      0x3dc curveColliderLocator.o
+ .gcc_except_table
+                0x0000000000038df0     0x13a2 stretchMeshCmd.o
+ .gcc_except_table
+                0x000000000003a192       0x53 pluginMain.o
+ *fill*         0x000000000003a1e5        0x3 00
+ .gcc_except_table
+                0x000000000003a1e8     0x1438 stretchMeshDeformer.o
+                0x000000000003b620                . = (ALIGN (0x200000) - ((0x200000 - .) & 0x1fffff))
+                0x000000000023b708                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000023b708       0x30
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x000000000023b708        0x8 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ .ctors         0x000000000023b710        0x8 curveColliderLocator.o
+ .ctors         0x000000000023b718        0x8 stretchMeshCmd.o
+ .ctors         0x000000000023b720        0x8 pluginMain.o
+ .ctors         0x000000000023b728        0x8 stretchMeshDeformer.o
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000023b730        0x8 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtendS.o
+
+.dtors          0x000000000023b738       0x10
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x000000000023b738        0x8 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000023b740        0x8 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtendS.o
+                0x000000000023b740                __DTOR_END__
+
+.jcr            0x000000000023b748        0x8
+ *(.jcr)
+ .jcr           0x000000000023b748        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtbeginS.o
+ .jcr           0x000000000023b748        0x8 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtendS.o
+
+.data.rel.ro    0x000000000023b760      0x390
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro._ZTI20curveColliderLocator
+                0x000000000023b760       0x18 curveColliderLocator.o
+                0x000000000023b760                _ZTI20curveColliderLocator
+ *fill*         0x000000000023b778        0x8 00
+ .data.rel.ro._ZTV20curveColliderLocator
+                0x000000000023b780      0x170 curveColliderLocator.o
+                0x000000000023b780                _ZTV20curveColliderLocator
+ .data.rel.ro._ZTI14stretchMeshCmd
+                0x000000000023b8f0       0x18 stretchMeshCmd.o
+                0x000000000023b8f0                _ZTI14stretchMeshCmd
+ *fill*         0x000000000023b908       0x18 00
+ .data.rel.ro._ZTV14stretchMeshCmd
+                0x000000000023b920       0x48 stretchMeshCmd.o
+                0x000000000023b920                _ZTV14stretchMeshCmd
+ *fill*         0x000000000023b968        0x8 00
+ .data.rel.ro._ZTI19stretchMeshDeformer
+                0x000000000023b970       0x18 stretchMeshDeformer.o
+                0x000000000023b970                _ZTI19stretchMeshDeformer
+ *fill*         0x000000000023b988       0x18 00
+ .data.rel.ro._ZTV19stretchMeshDeformer
+                0x000000000023b9a0      0x150 stretchMeshDeformer.o
+                0x000000000023b9a0                _ZTV19stretchMeshDeformer
+
+.dynamic        0x000000000023baf0      0x220
+ *(.dynamic)
+ .dynamic       0x000000000023baf0      0x220 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+                0x000000000023baf0                _DYNAMIC
+
+.got            0x000000000023bd10      0x2d0
+ *(.got)
+ .got           0x000000000023bd10      0x2d0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ *(.igot)
+                0x000000000023bfe8                . = DATA_SEGMENT_RELRO_END (., 0x18)
+
+.got.plt        0x000000000023bfe8      0xba0
+ *(.got.plt)
+ .got.plt       0x000000000023bfe8      0xba0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+                0x000000000023bfe8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000023cb88       0x18
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000023cb88        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ .data          0x000000000023cb88        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtbeginS.o
+ .data.rel      0x000000000023cb88        0x8 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtbeginS.o
+                0x000000000023cb88                __dso_handle
+ .data          0x000000000023cb90        0x0 curveColliderLocator.o
+ .data.DW.ref.__gxx_personality_v0
+                0x000000000023cb90        0x8 curveColliderLocator.o
+                0x000000000023cb90                DW.ref.__gxx_personality_v0
+ .data          0x000000000023cb98        0x0 stretchMeshCmd.o
+ .data          0x000000000023cb98        0x7 pluginMain.o
+                0x000000000023cb98                MApiVersion
+ *fill*         0x000000000023cb9f        0x1 00
+ .data          0x000000000023cba0        0x0 stretchMeshDeformer.o
+ .data          0x000000000023cba0        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtendS.o
+ .data          0x000000000023cba0        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crtn.o
+
+.data1
+ *(.data1)
+                0x000000000023cba0                _edata = .
+                0x000000000023cba0                PROVIDE (edata, .)
+                0x000000000023cba0                __bss_start = .
+
+.bss            0x000000000023cba0      0x398
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000023cba0        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+ .bss           0x000000000023cba0       0x10 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtbeginS.o
+ .bss           0x000000000023cbb0       0x85 curveColliderLocator.o
+                0x000000000023cbb0                _ZN20curveColliderLocator10RegisteredE
+                0x000000000023cbc0                _ZN20curveColliderLocator20colliderTransparencyE
+                0x000000000023cbd0                _ZN20curveColliderLocator14colliderColorBE
+                0x000000000023cbe0                _ZN20curveColliderLocator14colliderColorGE
+                0x000000000023cbf0                _ZN20curveColliderLocator14colliderColorRE
+                0x000000000023cc00                _ZN20curveColliderLocator13colliderXformE
+                0x000000000023cc10                _ZN20curveColliderLocator16colliderRadiusInE
+                0x000000000023cc20                _ZN20curveColliderLocator15colliderCurveInE
+                0x000000000023cc30                _ZN20curveColliderLocator2idE
+ *fill*         0x000000000023cc35        0x3 00
+ .bss           0x000000000023cc38        0x2 stretchMeshCmd.o
+                0x000000000023cc38                _ZN14stretchMeshCmd10RegisteredE
+ *fill*         0x000000000023cc3a        0x2 00
+ .bss           0x000000000023cc3c        0x1 pluginMain.o
+ *fill*         0x000000000023cc3d        0x3 00
+ .bss           0x000000000023cc40      0x2f5 stretchMeshDeformer.o
+                0x000000000023cc40                _ZN19stretchMeshDeformer8LicensedE
+                0x000000000023cc41                _ZN19stretchMeshDeformer10RegisteredE
+                0x000000000023cc50                _ZN19stretchMeshDeformer17crvColliderRadiusE
+                0x000000000023cc60                _ZN19stretchMeshDeformer21crvColliderRadiusListE
+                0x000000000023cc70                _ZN19stretchMeshDeformer18crvColliderVrtMultE
+                0x000000000023cc80                _ZN19stretchMeshDeformer22crvColliderVrtMultListE
+                0x000000000023cc90                _ZN19stretchMeshDeformer19primCrvColliderMultE
+                0x000000000023cca0                _ZN19stretchMeshDeformer19primCrvColliderListE
+                0x000000000023ccb0                _ZN19stretchMeshDeformer23primSphrColliderVrtMultE
+                0x000000000023ccc0                _ZN19stretchMeshDeformer27primSphrColliderVrtMultListE
+                0x000000000023ccd0                _ZN19stretchMeshDeformer20primSphrColliderMultE
+                0x000000000023cce0                _ZN19stretchMeshDeformer20primSphrColliderListE
+                0x000000000023ccf0                _ZN19stretchMeshDeformer12nrbsColliderE
+                0x000000000023cd00                _ZN19stretchMeshDeformer18mshColliderVrtMultE
+                0x000000000023cd10                _ZN19stretchMeshDeformer22mshColliderVrtMultListE
+                0x000000000023cd20                _ZN19stretchMeshDeformer15mshColliderMultE
+                0x000000000023cd30                _ZN19stretchMeshDeformer19mshColliderInflatedE
+                0x000000000023cd40                _ZN19stretchMeshDeformer14mshColliderPadE
+                0x000000000023cd50                _ZN19stretchMeshDeformer11mshColliderE
+                0x000000000023cd60                _ZN19stretchMeshDeformer20crvAttractorAttachUVE
+                0x000000000023cd70                _ZN19stretchMeshDeformer24crvAttractorAttachUVListE
+                0x000000000023cd80                _ZN19stretchMeshDeformer19crvAttractorVrtMultE
+                0x000000000023cd90                _ZN19stretchMeshDeformer23crvAttractorVrtMultListE
+                0x000000000023cda0                _ZN19stretchMeshDeformer20crvAttractorStrengthE
+                0x000000000023cdb0                _ZN19stretchMeshDeformer17crvAttractorCurveE
+                0x000000000023cdc0                _ZN19stretchMeshDeformer17attrPaintArrDirtyE
+                0x000000000023cdd0                _ZN19stretchMeshDeformer14attrPaintTransE
+                0x000000000023cde0                _ZN19stretchMeshDeformer16attrPaintWeightsE
+                0x000000000023cdf0                _ZN19stretchMeshDeformer14attrctrVrtMultE
+                0x000000000023ce00                _ZN19stretchMeshDeformer18attrctrVrtMultListE
+                0x000000000023ce10                _ZN19stretchMeshDeformer15attrctrStrengthE
+                0x000000000023ce20                _ZN19stretchMeshDeformer19attrWorldMatrixListE
+                0x000000000023ce30                _ZN19stretchMeshDeformer9stiffnessE
+                0x000000000023ce40                _ZN19stretchMeshDeformer13stiffnessListE
+                0x000000000023ce50                _ZN19stretchMeshDeformer9bScalableE
+                0x000000000023ce60                _ZN19stretchMeshDeformer13bScalableListE
+                0x000000000023ce70                _ZN19stretchMeshDeformer1bE
+                0x000000000023ce80                _ZN19stretchMeshDeformer15enableScaleSafeE
+                0x000000000023ce90                _ZN19stretchMeshDeformer18connVrtIdNrmlOrderE
+                0x000000000023cea0                _ZN19stretchMeshDeformer22connVrtIdNrmlOrderListE
+                0x000000000023ceb0                _ZN19stretchMeshDeformer9connVrtIdE
+                0x000000000023cec0                _ZN19stretchMeshDeformer13connVrtIdListE
+                0x000000000023ced0                _ZN19stretchMeshDeformer11meanWeightsE
+                0x000000000023cee0                _ZN19stretchMeshDeformer15meanWeightsListE
+                0x000000000023cef0                _ZN19stretchMeshDeformer10collisionsE
+                0x000000000023cf00                _ZN19stretchMeshDeformer10iterationsE
+                0x000000000023cf10                _ZN19stretchMeshDeformer13collisionStepE
+                0x000000000023cf20                _ZN19stretchMeshDeformer18stretchMeshVersionE
+                0x000000000023cf30                _ZN19stretchMeshDeformer2idE
+ *fill*         0x000000000023cf35        0x3 00
+ .bss           0x000000000023cf38        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtendS.o
+ .bss           0x000000000023cf38        0x0 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crtn.o
+ *(COMMON)
+                0x000000000023cf38                . = ALIGN ((. != 0x0)?0x8:0x1)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000023cf38                . = ALIGN (0x8)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x000000000063cf38        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x000000000063cf38                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x000000000063cf38                . = ALIGN (0x8)
+                0x000000000063cf38                _end = .
+                0x000000000063cf38                PROVIDE (end, .)
+                0x000000000063cf38                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x18
+ *(.comment)
+ .comment       0x0000000000000000       0x18 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crti.o
+                                         0x19 (size before relaxing)
+ .comment       0x0000000000000000       0x19 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtbeginS.o
+ .comment       0x0000000000000000       0x19 curveColliderLocator.o
+ .comment       0x0000000000000000       0x19 stretchMeshCmd.o
+ .comment       0x0000000000000000       0x19 pluginMain.o
+ .comment       0x0000000000000000       0x19 stretchMeshDeformer.o
+ .comment       0x0000000000000000       0x19 /usr/lib64/gcc/x86_64-suse-linux/4.6/crtendS.o
+ .comment       0x0000000000000000       0x19 /usr/lib64/gcc/x86_64-suse-linux/4.6/../../../../lib64/crtn.o
+
+.comment.SUSE.OPTs
+                0x0000000000000000        0x6
+ .comment.SUSE.OPTs
+                0x0000000000000000        0x6 curveColliderLocator.o
+ .comment.SUSE.OPTs
+                0x0000000000000000        0x6 stretchMeshCmd.o
+ .comment.SUSE.OPTs
+                0x0000000000000000        0x6 pluginMain.o
+ .comment.SUSE.OPTs
+                0x0000000000000000        0x6 stretchMeshDeformer.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(stretchmesh.so elf64-x86-64)
