@@ -11,6 +11,7 @@
 # ==========================================================================
 #+
 
+
 ifndef INCL_BUILDRULES
 
 #
@@ -31,23 +32,28 @@ endif
 #
 # Variable definitions
 #
+############################
+PLUGIN_NAME := stretchmesh
+############################
 
 SRCDIR := .
 DSTDIR := .
+#####################
+$(PLUGIN_NAME)_SOURCES  := curveColliderLocator.cpp stretchMeshCmd.cpp pluginMain.cpp stretchMeshDeformer.cpp
+$(PLUGIN_NAME)_OBJECTS  := curveColliderLocator.o stretchMeshCmd.o pluginMain.o stretchMeshDeformer.o
+#####################
 
-stretchmesh_SOURCES  := curveColliderLocator.cpp stretchMeshCmd.cpp pluginMain.cpp stretchMeshDeformer.cpp
-stretchmesh_OBJECTS  := curveColliderLocator.o stretchMeshCmd.o pluginMain.o stretchMeshDeformer.o
-stretchmesh_PLUGIN   := $(DSTDIR)/stretchmesh.$(EXT)
-stretchmesh_MAKEFILE := $(DSTDIR)/Makefile
+$(PLUGIN_NAME)_PLUGIN   := $(DSTDIR)/$(PLUGIN_NAME).$(EXT)
+$(PLUGIN_NAME)_MAKEFILE := $(DSTDIR)/Makefile
 
 #
 # Include the optional per-plugin Makefile.inc
 #
 #    The file can contain macro definitions such as:
-#       {pluginName}_EXTRA_CFLAGS
-#       {pluginName}_EXTRA_C++FLAGS
-#       {pluginName}_EXTRA_INCLUDES
-#       {pluginName}_EXTRA_LIBS
+#       {PLUGIN_NAME}_EXTRA_CFLAGS
+#       {PLUGIN_NAME}_EXTRA_C++FLAGS
+#       {PLUGIN_NAME}_EXTRA_INCLUDES
+#       {PLUGIN_NAME}_EXTRA_LIBS
 
 -include $(SRCDIR)/Makefile.inc
 
@@ -56,36 +62,36 @@ stretchmesh_MAKEFILE := $(DSTDIR)/Makefile
 # Set target specific flags.
 #
 
-$(stretchmesh_OBJECTS): CFLAGS   := $(CFLAGS)   $(stretchmesh_EXTRA_CFLAGS)
-$(stretchmesh_OBJECTS): C++FLAGS := $(C++FLAGS) $(stretchmesh_EXTRA_C++FLAGS)  -DNDEBUG -msse3
-$(stretchmesh_OBJECTS): INCLUDES := $(INCLUDES) $(stretchmesh_EXTRA_INCLUDES) -I../nlib
+$($(PLUGIN_NAME)_OBJECTS): CFLAGS   := $(CFLAGS)   $($(PLUGIN_NAME)_EXTRA_CFLAGS)
+$($(PLUGIN_NAME)_OBJECTS): C++FLAGS := $(C++FLAGS) $($(PLUGIN_NAME)_EXTRA_C++FLAGS)  -DNDEBUG -msse3
+$($(PLUGIN_NAME)_OBJECTS): INCLUDES := $(INCLUDES) $($(PLUGIN_NAME)_EXTRA_INCLUDES) -I../nlib
 
-depend_stretchmesh:     INCLUDES := $(INCLUDES) $(stretchmesh_EXTRA_INCLUDES)
+depend_$(PLUGIN_NAME):     INCLUDES := $(INCLUDES) $($(PLUGIN_NAME)_EXTRA_INCLUDES)
 
-$(stretchmesh_PLUGIN):  LFLAGS   := $(LFLAGS) $(stretchmesh_EXTRA_LFLAGS)
-$(stretchmesh_PLUGIN):  LIBS     := $(LIBS) -lOpenMaya -lOpenMayaAnim -lOpenMayaUI -lFoundation -lOpenMayaRender -L/usr/lib64  -LGL -LGLU
+$($(PLUGIN_NAME)_PLUGIN):  LFLAGS   := $(LFLAGS) $($(PLUGIN_NAME)_EXTRA_LFLAGS)
+$($(PLUGIN_NAME)_PLUGIN):  LIBS     := $(LIBS) -lOpenMaya -lOpenMayaAnim -lOpenMayaUI -lFoundation -lOpenMayaRender -L/usr/lib64  -LGL -LGLU
 
 #
 # Rules definitions
 #
 
-.PHONY: depend_stretchmesh clean_stretchmesh Clean_stretchmesh
+.PHONY: depend_$(PLUGIN_NAME) clean_$(PLUGIN_NAME) Clean_$(PLUGIN_NAME)
 
 
-$(stretchmesh_PLUGIN): $(stretchmesh_OBJECTS)
+$($(PLUGIN_NAME)_PLUGIN): $($(PLUGIN_NAME)_OBJECTS)
 	-rm -f $@
 	$(LD) -o $@ $(LFLAGS) $^ $(LIBS)
 
-depend_stretchmesh :
-	makedepend $(INCLUDES) $(MDFLAGS) -f$(DSTDIR)/Makefile $(stretchmesh_SOURCES)
+depend_$(PLUGIN_NAME) :
+	makedepend $(INCLUDES) $(MDFLAGS) -f$(DSTDIR)/Makefile $($(PLUGIN_NAME)_SOURCES)
 
-clean_stretchmesh:
-	-rm -f $(stretchmesh_OBJECTS)
+clean_$(PLUGIN_NAME):
+	-rm -f $($(PLUGIN_NAME)_OBJECTS)
 
-Clean_stretchmesh:
-	-rm -f $(stretchmesh_MAKEFILE).bak $(stretchmesh_OBJECTS) $(stretchmesh_PLUGIN)
+Clean_$(PLUGIN_NAME):
+	-rm -f $($(PLUGIN_NAME)_MAKEFILE).bak $($(PLUGIN_NAME)_OBJECTS) $($(PLUGIN_NAME)_PLUGIN)
 
-plugins: $(stretchmesh_PLUGIN)
-depend:	 depend_stretchmesh
-clean:	 clean_stretchmesh
-Clean:	 Clean_stretchmesh
+plugins: $($(PLUGIN_NAME)_PLUGIN)
+depend:	 depend_$(PLUGIN_NAME)
+clean:	 clean_$(PLUGIN_NAME)
+Clean:	 Clean_$(PLUGIN_NAME)
